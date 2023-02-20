@@ -1,5 +1,5 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://usr:pwd@beercafecluster.5i7z0cc.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient(url)
 db = client['crm']
 
 
